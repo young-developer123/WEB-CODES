@@ -1,23 +1,36 @@
+/*This is the css file for register.html page*/
+/*This is body decoration*/
 body{
-    background-color: yellow;
+    background-image: url(SardiniaFlavia.jpg);
     justify-content: center;
+    object-fit: cover;
     align-items: center;
     display: flex;
 }
+
+/*form box style starts from here*/
+form{
+    justify-self: center;
+    height: 800px;
+    width: 600px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(214, 11, 110, 0.5);
+    background-color: wheat;        
+}
+
+/*head decoration*/
 h1{
-    color: green;
+    text-decoration: underline solid red;
+    color: red;
     font-size: 50px;
     text-align: center;
 }
-wform{
-    margin: 100px auto;
-    border: 2px solid green;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 20px;
-    width: 200px;
-    background-color: blue;
-    padding: 20px;
-}
+
+/*all input decoration*/
 input {
     height: 30px;
     width: 100%;
@@ -26,10 +39,22 @@ input {
     padding: 5px;
     margin-bottom: 10px;
 }
+
+/*form background decoration*/
+.whole{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*all label decoration*/
 label{
-    color: black;
+    color: yellow;
     font-size: 20px;
 }
+
+/*register button decoration anly*/
 .register{
     background-color: green;
     color: white;
@@ -37,12 +62,16 @@ label{
     border: none;
     padding: 10px;
     cursor: pointer;
-    height: 30px;
+    height: 40px;
     width: 100%;
 }
+
+/*register button hover decoration*/
 .register:hover{
     background-color: darkgreen;
 }
+
+/*placehoder decoration but still not working its under maintenance*/
 input :placeholder-shown{
     color: blue;
     font-size: 10px;
