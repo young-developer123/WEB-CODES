@@ -10,20 +10,20 @@ body{
 
 /*form box style starts from here*/
 form{
-    justify-self: center;
-    height: 800px;
-    width: 600px;
+    height: 700px;
+    width: 400px;
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 5%;
-    padding: 20px;
-    border-radius: 100px;
-    box-shadow: 0 0 10px rgba(214, 11, 110, 0.5);
+    padding: 15px;
+    border-radius: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 30,0.3);
     background-color: wheat;        
 }
 
 /*head decoration*/
 h1{
+    padding-top: 4%;
     text-decoration: underline solid red;
     color: red;
     font-size: 50px;
@@ -32,16 +32,16 @@ h1{
 
 /*all input decoration*/
 input {
-    height: 30px;
+    height: 20px;
     width: 100%;
     border-radius: 15px;
     border: none;
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 /*form background decoration*/
-.whole{
+whole{
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ label{
     border: none;
     padding: 10px;
     cursor: pointer;
-    height: 40px;
+    height: 30px;
     width: 100%;
 }
 
