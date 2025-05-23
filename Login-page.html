@@ -3,117 +3,119 @@
     <head>
         <title>login page</title>
         <link rel="stylesheet" href="login_page.css">
+        
         <style>
             body {
-    background-color: lightblue;
-}
+                background-color: lightblue;
+            }
 
-.form :placeholder-shown {
-    color: white;
-    padding-left: 10px;
-}
+            .form :placeholder-shown {
+                color: white;
+                padding-left: 10px;
+            }
 
-.wform {
-    height: 400px;
-    width: 300px;
-    position: fixed;
-    top: 20%;
-    left: 40%;
-    padding: 20px;
-    border-radius: 100px;
-    box-shadow: 0 0 10px rgba(214, 11, 110, 0.5);
-    background-color: wheat;
-}
+            .wform {
+                height: 400px;
+                width: 300px;
+                position: fixed;
+                top: 20%;
+                left: 40%;
+                padding: 20px;
+                border-radius: 100px;
+                box-shadow: 0 0 10px rgba(214, 11, 110, 0.5);
+                background-color: wheat;
+            }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-width: 2px yellow;
-}
-
-
-.h1 {
-    padding-top: 28px;
-    padding-left: 120px;
-    font-size: 50px;
-    color: red;
-    text-align: center;
-    top: 70%;
-}
+            .form {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-width: 2px yellow;
+            }
 
 
-.input {
-    width: 200px;
-    text-align: center;
-    height: 30px;
-    border-radius: 15px;
-    border: 1px solid rgb(85, 80, 80);
-}
+            .h1 {
+                padding-top: 28px;
+                padding-left: 120px;
+                font-size: 50px;
+                color: red;
+                text-align: center;
+                top: 70%;
+            }
 
 
-.Register:hover {
-    background-color: white;
-    color: green;
-    border: 1px solid rgb(133, 145, 133);
-}
+            .input {
+                width: 200px;
+                text-align: center;
+                height: 30px;
+                border-radius: 15px;
+                border: 1px solid rgb(85, 80, 80);
+            }
 
 
-.login:hover {
-    background-color: white;
-    color: green;
-    border: 1px solid rgb(133, 145, 133);
-}
+            .Register:hover {
+                background-color: white;
+                color: green;
+                border: 1px solid rgb(133, 145, 133);
+            }
 
 
-.Register:hover{
-    text-decoration: underline;
-    background-color: white;
-    color: rgb(75, 73, 170);
-    border: 1px solid rgb(133, 145, 133);
-}
+            .login:hover {
+                background-color: white;
+                color: green;
+                border: 1px solid rgb(133, 145, 133);
+            }
 
 
-.login {
-    width: 100px;
-    height: 30px;
-    border-radius: 15px;
-    border: 1px solid black;
-    background-color: lightgreen;
-    text-align: center;
-    justify-content: center;
-}
+            .Register:hover{
+                text-decoration: underline;
+                background-color: white;
+                color: rgb(75, 73, 170);
+                border: 1px solid rgb(133, 145, 133);
+            }
 
 
-.forget_password:hover {
-    text-decoration: underline solid yellow;
-    background-color: white;
-}
+            .login {
+                width: 100px;
+                height: 30px;
+                border-radius: 15px;
+                border: 1px solid black;
+                background-color: lightgreen;
+                text-align: center;
+                justify-content: center;
+            }
 
 
-body {
-    background-image: url(https://plus.unsplash.com/premium_photo-1747141505609-cfc437884d11?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-                    
-}
+            .forget_password:hover {
+                text-decoration: underline solid yellow;
+                background-color: white;
+            }
+
+
+            body {
+                background-image: url(pexels-pixabay-206359.jpg);
+                                
+            }
         </style>
+
     </head>
     <body>
         <h1 class="h1">Login</h1>
         <!--this is a form-->
         <div class="wform">
             <form class="form" action="file:///C:/Users/ADMIN/OneDrive/Documents/GitHub/WEB-CODES/Real-page.html" method="post">
-            <label for="username" style="font-size: 25px;">Username:</label><br>
-            <input type="text" class="input" placeholder="username"="username" name="username" required><br>
-            
-            <label for="password" style="font-size: 25px;">Password:</label><br>
-            <input type="password" class="input" placeholder="password" id="password" name="password" required><br><br>
-            
-            <a href="#" style="color: red; font-size: 20px; " class="forget_password" >forgot password?</a><br><br>
-            <input class="login" type="submit" value="Login">
-            
-            <p class="register">Don't have an account? <a href="file:///C:/Users/ADMIN/OneDrive/Documents/GitHub/WEB-CODES/register-page.html" >Register</a></p>
-        </form>
+                <label for="username" style="font-size: 25px;">Username:</label><br>
+                <input type="text" class="input" placeholder="username"="username" name="username" required><br>
+                
+                <label for="password" style="font-size: 25px;">Password:</label><br>
+                <input type="password" class="input" placeholder="password" id="password" name="password" required><br><br>
+                
+                <a href="#" style="color: red; font-size: 20px; " class="forget_password" >forgot password?</a><br><br>
+                <input class="login" type="submit" value="Login">
+                
+                <p class="register">Don't have an account? <a href="file:///C:/Users/ADMIN/OneDrive/Documents/GitHub/WEB-CODES/register-page.html" >Register</a></p>
+            </form>
         </div>
     </body>
 </html>
